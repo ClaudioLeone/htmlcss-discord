@@ -62,6 +62,7 @@ footer{
     padding: 5px 8px;
     font-size: 0.55em;
     border-radius: 15px;
+    text-align: center;
 }
 
 .flex{
@@ -99,7 +100,15 @@ footer{
 .whitebtn{
     background-color: #F6F6F6;
     color: black;
-    font-size: 0.75em;
+    font-size: 0.65em;
+    padding: 10px 15px;
+    margin-right: 5px;
+}
+
+.violetbtn{
+    background-color: #8EA1E1;
+    color: black;
+    font-size: 0.65em;
     padding: 10px 15px;
     margin-right: 5px;
 }
@@ -107,7 +116,7 @@ footer{
 .blackbtn{
     background-color: #23272A;
     color: #F6F6F6;
-    font-size: 0.75em;
+    font-size: 0.65em;
     padding: 10px 15px;
     margin-left: 5px;
 }
@@ -165,6 +174,13 @@ footer{
     font-size: 0.75em;
 }
 
+.bottom-quest{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    padding: 9px;
+    margin-bottom: 10px;
+}
+
 .main-sect1-3{
     background-color: #ffffff;
     display: flex;
@@ -180,6 +196,14 @@ footer{
 .main-sect4{
     background-color: #f4f4f4;
     display: flex;
+}
+
+.main-bottom-section{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 40px 0;
 }
 
 /* .main-row3{
