@@ -49,6 +49,10 @@ footer{
 
 
 /* UTILITIES */
+.vert-padding{
+    padding: 20px 0;
+}
+
 .logo, .actions{
     width: 15%;
 }
@@ -58,6 +62,20 @@ footer{
     padding: 5px 8px;
     font-size: 0.55em;
     border-radius: 15px;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1280px;
 }
 
 /* CLASSES */
@@ -94,28 +112,12 @@ footer{
     margin-left: 5px;
 }
 
-
-
-.flex{
-    display: flex;
-}
-
-.align-items{
-    align-items: center;
-}
-
-.container{
-    margin: 0 auto;
-    width: 85%;
-    max-width: 1280px;
-}
-
 .navbar{
     flex-grow: 1;
 }
 
 .header-text{
-    font-size: 0.95em;
+    font-size: 0.75em;
     padding: 25px 15px 10px 15px;
 }
 
@@ -143,7 +145,16 @@ footer{
     color: #F6F6F6;
 }
 
-.main-row2{
+.sect-paragraph{
+    padding: 10px 0 0 0;
+    font-size: 0.75em;
+}
+
+.sect-title{
+    padding: 0 0 10px 0;
+}
+
+.main-sect1{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -168,7 +179,18 @@ footer{
     justify-content: center;
 }
 
-.box1{
+.small-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.large.col{
+    width: 60%;
+}
+
+/* .box1{
     margin: 15px 0;
     display: flex;
     width: 350px;
@@ -193,7 +215,7 @@ footer{
     height: 400px;
     background-color: green;
     border: 1px dashed black;
-}
+} */
 
 .bottom-box1{
     margin: 15px 0;
