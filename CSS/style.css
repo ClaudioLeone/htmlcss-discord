@@ -6,41 +6,41 @@
 }
 
 /* GENERAL */
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+}
+
 ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 5px;
+    text-align: center;
+    list-style-type: none;
 }
 
 li{
-    list-style-type: none;
-    color: blue;
+    display: inline-block;
+    padding: 0 15px;
 }
 
-nav{
+/* nav{
     display: flex;
     justify-content: center;
     width: 65%;
     border: 1px dashed black;
-}
+} */
 
 footer{
     display: flex;
     border: 1px solid white;
     justify-content: center;
     background-color: rgb(25, 25, 25);
-
-}
-
-/* IDs */
-#logo{
-    display: flex;
-    justify-content: flex-start;
 }
 
 /* CLASSES */
-.header-container{
+/* .header-container{
     background-color: goldenrod;
     margin: 10px 150px;
     border: 1px dashed black;
@@ -49,15 +49,44 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+} */
+
+/* UTILITIES */
+/* .logo, .login{
+    width: 15%;
+} */
+
+.flex{
+    display: flex;
 }
 
-.main-row1{
-    background-color: blue;
+.align-items{
+    align-items: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1280px;
+}
+
+.navbar{
+    flex-grow: 1;
+}
+
+.header-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.jumbotron{
     display: flex;
     justify-content: center;
 }
 
-.fucsia-box{
+.content{
     margin: 15px 0;
     display: flex;
     width: 450px;
