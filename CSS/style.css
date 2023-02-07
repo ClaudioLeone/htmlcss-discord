@@ -6,13 +6,18 @@
 }
 
 /* GENERAL */
+img{
+    width: 100%;
+    
+}
+
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header{
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 ul{
@@ -22,7 +27,9 @@ ul{
 
 li{
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 5px;
+    font-size: 0.6em;
+    color: #F6F6F6;
 }
 
 /* nav{
@@ -39,6 +46,20 @@ footer{
     background-color: rgb(25, 25, 25);
 }
 
+
+
+/* UTILITIES */
+.logo, .actions{
+    width: 15%;
+}
+
+.actions{ 
+    text-decoration: none;
+    padding: 5px 8px;
+    font-size: 0.55em;
+    border-radius: 15px;
+}
+
 /* CLASSES */
 /* .header-container{
     background-color: goldenrod;
@@ -51,10 +72,29 @@ footer{
     align-items: center;
 } */
 
-/* UTILITIES */
-/* .logo, .login{
-    width: 15%;
-} */
+.login{
+    background-color: #F6F6F6;
+    color: black;
+    padding: 5px 8px;
+}
+
+.whitebtn{
+    background-color: #F6F6F6;
+    color: black;
+    font-size: 0.75em;
+    padding: 10px 15px;
+    margin-right: 5px;
+}
+
+.blackbtn{
+    background-color: #23272A;
+    color: #F6F6F6;
+    font-size: 0.75em;
+    padding: 10px 15px;
+    margin-left: 5px;
+}
+
+
 
 .flex{
     display: flex;
@@ -66,12 +106,21 @@ footer{
 
 .container{
     margin: 0 auto;
-    width: 70%;
+    width: 85%;
     max-width: 1280px;
 }
 
 .navbar{
     flex-grow: 1;
+}
+
+.header-text{
+    font-size: 0.95em;
+    padding: 25px 15px 10px 15px;
+}
+
+.header-bottom-actions{
+    padding: 10px 10px 65px 10px;
 }
 
 .header-top{
@@ -82,17 +131,16 @@ footer{
 }
 
 .jumbotron{
+    margin-top: 45px;
     display: flex;
     justify-content: center;
 }
 
 .content{
-    margin: 15px 0;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    background-color: fuchsia;
-    border: 1px dashed black;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: #F6F6F6;
 }
 
 .main-row2{
